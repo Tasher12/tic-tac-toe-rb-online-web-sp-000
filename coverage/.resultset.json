@@ -15,6 +15,7 @@
         null,
         null,
         1,
+<<<<<<< HEAD
         24,
         24,
         24,
@@ -44,10 +45,38 @@
         20,
         null,
         3,
+=======
+        13,
+        13,
+        13,
+        13,
+        13,
+        null,
+        null,
+        1,
+        13,
+        13,
+        null,
+        null,
+        1,
+        13,
+        null,
+        null,
+        1,
+        147,
+        null,
+        null,
+        1,
+        13,
+        13,
+        null,
+        0,
+>>>>>>> f8e3718919c44e9f99da9d7a67f99bb4aeecd62a
         null,
         null,
         null,
         1,
+<<<<<<< HEAD
         21,
         21,
         189,
@@ -59,10 +88,24 @@
         null,
         1,
         20,
+=======
+        13,
+        13,
+        117,
+        0,
+        null,
+        null,
+        13,
+        null,
+        null,
+        1,
+        0,
+>>>>>>> f8e3718919c44e9f99da9d7a67f99bb4aeecd62a
         null,
         null,
         null,
         1,
+<<<<<<< HEAD
         20,
         20,
         20,
@@ -71,10 +114,22 @@
         19,
         null,
         1,
+=======
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        null,
+        0,
+>>>>>>> f8e3718919c44e9f99da9d7a67f99bb4aeecd62a
         null,
         null,
         null,
         1,
+<<<<<<< HEAD
         73,
         416,
         416,
@@ -96,27 +151,67 @@
         26,
         null,
         8,
+=======
+        57,
+        227,
+        227,
+        227,
+        null,
+        227,
+        227,
+        227,
+        null,
+        227,
+        35,
+        null,
+        null,
+        22,
+        null,
+        null,
+        1,
+        81,
+        14,
+        null,
+        4,
+>>>>>>> f8e3718919c44e9f99da9d7a67f99bb4aeecd62a
         null,
         null,
         null,
         1,
+<<<<<<< HEAD
         20,
         4,
         null,
         16,
+=======
+        9,
+        2,
+        null,
+        7,
+>>>>>>> f8e3718919c44e9f99da9d7a67f99bb4aeecd62a
         null,
         null,
         null,
         1,
+<<<<<<< HEAD
         21,
         10,
+=======
+        14,
+        8,
+>>>>>>> f8e3718919c44e9f99da9d7a67f99bb4aeecd62a
         null,
         null,
         null,
         null,
         1,
+<<<<<<< HEAD
         12,
         11,
+=======
+        13,
+        13,
+>>>>>>> f8e3718919c44e9f99da9d7a67f99bb4aeecd62a
         null,
         null,
         null,
@@ -125,12 +220,21 @@
         null,
         1,
         12,
+<<<<<<< HEAD
         17,
         null,
         12,
         5,
         5,
         7,
+=======
+        13,
+        null,
+        12,
+        6,
+        6,
+        6,
+>>>>>>> f8e3718919c44e9f99da9d7a67f99bb4aeecd62a
         3,
         null,
         null,
@@ -141,9 +245,26 @@
         null,
         null,
         null,
+<<<<<<< HEAD
         null
       ]
     },
     "timestamp": 1605740160
+=======
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1605734817
+>>>>>>> f8e3718919c44e9f99da9d7a67f99bb4aeecd62a
   }
 }

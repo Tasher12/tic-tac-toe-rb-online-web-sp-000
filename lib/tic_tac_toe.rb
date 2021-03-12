@@ -19,11 +19,19 @@ def display_board(board)
 end
 
 def input_to_index(index);
+<<<<<<< HEAD
   num = index.to_i - 1 
   return num 
 end
 
 def move(board, index, character)
+=======
+  num = input.to_i - 1 
+  return num 
+end
+
+def move(board, index, character = "x")
+>>>>>>> f8e3718919c44e9f99da9d7a67f99bb4aeecd62a
   board[index] = character
 end
 
@@ -31,10 +39,13 @@ def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
 
+<<<<<<< HEAD
 def move(board, index, current_player)
   board[index] = current_player
 end
 
+=======
+>>>>>>> f8e3718919c44e9f99da9d7a67f99bb4aeecd62a
 def valid_move?(board, index)
   if !position_taken?(board, index) && (index).between?(0,8)
     return true
@@ -62,10 +73,18 @@ def turn(board)
   puts "Please enter 1-9:"
   user_input = gets.strip
   index = input_to_index(user_input)
+<<<<<<< HEAD
   if valid_move?(board, index)
     move(board, index, current_player(board))
     display_board(board)
   else 
+=======
+  turn_count(board)
+  if valid_move?(board, index)
+    move(board, index, character = "x")
+    display_board(board)
+  else
+>>>>>>> f8e3718919c44e9f99da9d7a67f99bb4aeecd62a
     turn(board)
   end
 end
@@ -124,7 +143,11 @@ def play(board)
     turn(board)
   end 
   if won?(board)
+<<<<<<< HEAD
     winner(board) == "X" || winner(board) == "O"
+=======
+    winner(board) == "x" || winner(board) == "o"
+>>>>>>> f8e3718919c44e9f99da9d7a67f99bb4aeecd62a
     puts "Congratulations #{winner(board)}!"
   elsif draw?(board)
     puts "Cat's Game!" 
@@ -136,5 +159,18 @@ end
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+board = ["","","","","","","","",""]
+
+
+>>>>>>> f8e3718919c44e9f99da9d7a67f99bb4aeecd62a
   
   

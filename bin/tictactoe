@@ -4,9 +4,18 @@ require_relative '../lib/tic_tac_toe'
 
 puts "Welcome to Tic Tac Toe!";
 board = [" "," "," "," "," "," "," "," "," "]
+<<<<<<< HEAD
 display_board(board)
 play(board)
 
+=======
+display_board(board)
+turn(board)
+input = gets.strip 
+index = input_to_index(input.to_i)
+display_board(board)
+move(board, index, character = "X")
+>>>>>>> f8e3718919c44e9f99da9d7a67f99bb4aeecd62a
 
 
 
